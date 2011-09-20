@@ -1,0 +1,24 @@
+Questo file si rivolge agli sviluppatori che si avvicinano al programma, e ne spiega la struttura generale.
+
+Il programma é formato da alcuni file:
+
+I files gerix.ui e gerix.ui.h sono editabili tramite designer-qt3, e rappresentano l'interfaccia grafica.
+
+Il file gerix_gui.py é generato automaticamente dai file dell'interfaccia tramite il comando 'make', e non va utilizzato direttamente.
+
+Il file gerix.py é il cuore del programma, e contiene il codice su cui lavorare. Racchiude la classe Main_window_ex (un'estensione della classe Main_window contenuta nel file gerix_gui.py) e implementa i callbacks dell'interfaccia utente.
+
+Il file gerix_config.py contiene la configurazione del programma e puo' essere alterato dall'utente. Necessita comunque di attenzione.
+
+
+NOTE:
+
+Per aggiungere nuovi callback per gli elementi della GUI bisogna usare la sezione 'Connections' di designer-qt3, e collegare il signal allo slot voluto. Si potrà poi implementare lo slot nel file gerix.py, come metodo della classe Main_window_ex.
+
+Per generare il file gerix_gui.py usare il comando 'make'. Questo comando esegue: 'pyuic gerix.ui -o gerix_gui.py'. Vedi il Makefile.
+
+
+PS:
+
+Divertitevi!!!
+

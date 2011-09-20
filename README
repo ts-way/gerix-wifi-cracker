@@ -1,0 +1,23 @@
+REQUISITES:
+
+You need the modules:
+qt (v.3)
+
+LAUNCH:
+
+To launch the program use:
+$ python gerix.py
+
+Enjoy!
+
+
+NOTE:
+
+For copy and paste in xterm windows you can use the shortcuts CTRL-INS
+and SHIFT-INS.
+In alternative, you can select the text with the mouse, and use the third
+button of the mouse to paste it. On a laptop you can emulate the third button
+pressing the first and the second button together.
+
+
+

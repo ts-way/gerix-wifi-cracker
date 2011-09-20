@@ -1,0 +1,49 @@
+7 Luglio 2010:
+- Ora si utilizza una funzione per il controllo delle opzioni necessarie per i
+  vari attacchi
+- Fixato il problema dei crash dovuti al multithreading + qt
+- Fixati bugs relativi ai comandi usati negli attacchi
+
+15 Luglio 2009:
+- Cambiamenti alla GUI:
+    - Ristretta sezione Information gathering
+    - Aggiunto IP farward nella sezione Extra
+    - Aggiunta sezione Fake Access Point
+    - Altre modifiche minori
+- Sistemati diversi bug
+- Implementato IP forward
+- Implementato Fake Access Point
+
+12 Luglio 2009:
+- Aggiunto pulsante "Autoload AP informations" e implementato grazie a "iwlist <interface> scan"
+- Modifiche minori
+
+6 Luglio 2009:
+- Fix minori
+- Cambiamenti alla GUI minori
+- Ora il pulsante 'Clean all' cancella i vecchi 'session files' nella config_dir
+- Testing delle funzionalità WEP no clients
+
+3 Luglio 2009:
+- Implementato il lancio dei programmi come threads separati.
+- Aggiunta classe Command_thread
+- Aggiunta funzione check_all per i vari check da fare al lancio del programma
+NOTE: il programma comincia ad essere usabile, evviva!!! presto si inizia il testing
+
+2 Luglio 2009:
+- Cambiamenti alla GUI:
+    - Eliminati i vari pulsanti 'Start Sniffing and Logging' e sostituiti da un
+      unico pulsante.
+- Completata implementazione dell'output per text_output.
+
+1 Luglio 2009:
+- Cambiamenti alla GUI:
+    - Aggiunto il widget text_output per riportare l'output dei comandi.
+    - Eliminato il TextEdit nella sezione 'MAC change', si utilizzerà text_output.
+- Inizio implementazione dell'output per text_output.
+
+
+30 Giugno 2009:
+- Primo commit nel repository svn.
+- Porting del programma gerix-wifi-cracker in python praticamente ultimato.
+
